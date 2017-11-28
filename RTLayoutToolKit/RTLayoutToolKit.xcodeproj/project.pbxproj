@@ -83,7 +83,7 @@
 		9FD1DD8D1FC56EDE00BF9A31 /* RTLayoutToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				9FD1DDAF1FC7BC1D00BF9A31 /* Classes */,
+				9FD1DDAF1FC7BC1D00BF9A31 /* RTLayoutKit */,
 				9FD1DD8E1FC56EDE00BF9A31 /* AppDelegate.h */,
 				9FD1DD8F1FC56EDE00BF9A31 /* AppDelegate.m */,
 				9FD1DD911FC56EDE00BF9A31 /* ViewController.h */,
@@ -97,7 +97,7 @@
 			path = RTLayoutToolKit;
 			sourceTree = "<group>";
 		};
-		9FD1DDAF1FC7BC1D00BF9A31 /* Classes */ = {
+		9FD1DDAF1FC7BC1D00BF9A31 /* RTLayoutKit */ = {
 			isa = PBXGroup;
 			children = (
 				9FD1DDBD1FC816C400BF9A31 /* RTHandler.h */,
@@ -119,7 +119,7 @@
 				9FD1DDA51FC56EF000BF9A31 /* RTLayoutToolKit.m */,
 				9FD1DDB31FC7BE2E00BF9A31 /* README.md */,
 			);
-			path = Classes;
+			path = RTLayoutKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
