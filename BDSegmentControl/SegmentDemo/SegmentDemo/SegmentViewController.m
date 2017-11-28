@@ -34,12 +34,13 @@
 - (void) initSegmentView
 {
     //习惯与Tabbar结合使用--
-    BDSegmentControl * segment = [[BDSegmentControl alloc] initWithFrame:CGRectMake(15, 0, SCR_Width-30, 30) items:@[@"优越", @"幽月"]];
-    segment.tintColor = [UIColor redColor];
+    BDSegmentControl * segment = [[BDSegmentControl alloc] initWithFrame:CGRectMake(15, 100, SCR_Width-30, 40) items:@[@"优越", @"幽月", @"ss"]];
+//    segment.tintColor = [UIColor redColor];
     segment.delegate = self;
-    self.navigationItem.titleView = segment;
-    //    [self.view addSubview:segment];
+//    self.navigationItem.titleView = segment;
+        [self.view addSubview:segment];
 }
+
 - (void)didSegmentViewSelectIndex:(NSInteger)index
 {
     self.selectedIndex = index;
