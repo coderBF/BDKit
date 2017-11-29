@@ -18,6 +18,8 @@
 @import UIKit;
 
 #define equalTo(...)  equalTo(RTBValue((__VA_ARGS__)))
+#define greaterThanOrEqualTo(...) greaterThanOrEqualTo(RTBValue((__VA_ARGS__)))
+#define lessThanOrEqualTo(...) lessThanOrEqualTo(RTBValue((__VA_ARGS__)))
 
 @interface RTConstraint : NSObject
 
