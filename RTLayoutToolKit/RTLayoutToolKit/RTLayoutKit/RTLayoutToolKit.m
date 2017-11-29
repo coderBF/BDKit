@@ -56,16 +56,16 @@
     
     NSMutableArray *attributes = [NSMutableArray array];
     
-    if (attrs & RTLayoutAttributeLeft) [attributes addObject:self.aView.left];
-    if (attrs & RTLayoutAttributeRight) [attributes addObject:self.aView.right];
-    if (attrs & RTLayoutAttributeTop) [attributes addObject:self.aView.top];
-    if (attrs & RTLayoutAttributeBottom) [attributes addObject:self.aView.bottom];
+    if (attrs & RTLayoutAttributeLeft) [attributes addObject:self.aView.layout_left];
+    if (attrs & RTLayoutAttributeRight) [attributes addObject:self.aView.layout_right];
+    if (attrs & RTLayoutAttributeTop) [attributes addObject:self.aView.layout_top];
+    if (attrs & RTLayoutAttributeBottom) [attributes addObject:self.aView.layout_bottom];
     
-    if (attrs & RTLayoutAttributeWidth) [attributes addObject:self.aView.width];
-    if (attrs & RTLayoutAttributeHeight) [attributes addObject:self.aView.height];
+    if (attrs & RTLayoutAttributeWidth) [attributes addObject:self.aView.layout_width];
+    if (attrs & RTLayoutAttributeHeight) [attributes addObject:self.aView.layout_height];
     
-    if (attrs & RTLayoutAttributeCenterX) [attributes addObject:self.aView.centerX];
-    if (attrs & RTLayoutAttributeCenterY) [attributes addObject:self.aView.centerY];
+    if (attrs & RTLayoutAttributeCenterX) [attributes addObject:self.aView.layout_centerX];
+    if (attrs & RTLayoutAttributeCenterY) [attributes addObject:self.aView.layout_centerY];
     
     NSMutableArray *constraints = [NSMutableArray arrayWithCapacity:attributes.count];
     for (RTViewAttribute *attr in attributes) {
