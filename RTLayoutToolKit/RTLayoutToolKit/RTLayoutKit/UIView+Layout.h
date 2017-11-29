@@ -18,16 +18,16 @@
 
 @interface UIView (Layout)
 
-- (RTViewAttribute *)top;
-- (RTViewAttribute *)bottom;
-- (RTViewAttribute *)left;
-- (RTViewAttribute *)right;
+- (RTViewAttribute *)layout_top;
+- (RTViewAttribute *)layout_bottom;
+- (RTViewAttribute *)layout_left;
+- (RTViewAttribute *)layout_right;
 
-- (RTViewAttribute *)width;
-- (RTViewAttribute *)height;
+- (RTViewAttribute *)layout_width;
+- (RTViewAttribute *)layout_height;
 
-- (RTViewAttribute *)centerX;
-- (RTViewAttribute *)centerY;
+- (RTViewAttribute *)layout_centerX;
+- (RTViewAttribute *)layout_centerY;
 
 
 - (UIView *)filterCommonSuperView:(UIView *)view;

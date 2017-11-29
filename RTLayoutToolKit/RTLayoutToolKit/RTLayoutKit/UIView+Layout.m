@@ -41,35 +41,35 @@
 #pragma clang diagnostic pop
 
 #pragma mark -
-- (RTViewAttribute *)top {
+- (RTViewAttribute *)layout_top {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeTop];
 }
 
-- (RTViewAttribute *)bottom {
+- (RTViewAttribute *)layout_bottom {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeBottom];
 }
 
-- (RTViewAttribute *)left {
+- (RTViewAttribute *)layout_left {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeLeft];
 }
 
-- (RTViewAttribute *)right {
+- (RTViewAttribute *)layout_right {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeRight];
 }
 
-- (RTViewAttribute *)width {
+- (RTViewAttribute *)layout_width {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeWidth];
 }
 
-- (RTViewAttribute *)height {
+- (RTViewAttribute *)layout_height {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeHeight];
 }
 
-- (RTViewAttribute *)centerX {
+- (RTViewAttribute *)layout_centerX {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeCenterX];
 }
 
-- (RTViewAttribute *)centerY {
+- (RTViewAttribute *)layout_centerY {
     return [[RTViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeCenterY];
 }
 
